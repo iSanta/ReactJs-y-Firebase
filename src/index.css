@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.itemContainer{
+  position: relative;
+  float: left;
+  width: 30%;
+  margin: 0 1%;
+}
+
+.itemContainer .imageItem{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.itemContainer .itemInfo{
+  position: relative;
+  width: 100%;
+  padding: 5px;
+}
+
+.itemContainer .itemInfo .itemUserPicture{
+  position: relative;
+  width: 10%;
+  height: auto;
+  float: left;
+}
+.itemContainer .itemInfo .itemUserName{
+  position: relative;
+  width: 90%;
+  height: auto;
+}
